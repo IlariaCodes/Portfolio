@@ -1,0 +1,31 @@
+header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#portfolio-logo{
+    margin-left: 30px;
+    font-family: "Alkatra", system-ui;
+}
+
+#portfolio-logo a {
+    text-decoration: none;
+    color: var(--color-decorations);
+    font-size: 2em;
+}
+    
+nav a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: var(--color-decorations);
+    margin-right: 30px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: var(--color-dark);
+}

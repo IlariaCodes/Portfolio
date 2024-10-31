@@ -5,20 +5,28 @@
 }
 
 html {
-    background-color: #f8f0ea;
+    --color-background: #f8f0ea;
     --color-decorations: #d69461;
     --color-dark: #231201;
+    background-color: var(--color-background);
     color: var(--color-dark);
 }
 
 h1,h2 {
     font-family: "Alkatra", system-ui;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 3em;
+    margin-top: 50px;
 }
 
 h1 {
     font-size: 2em;
 }
-      
+
+
 p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;

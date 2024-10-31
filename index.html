@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/welcome-banner.css">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -30,18 +31,29 @@
     </header>
     <main>
 
-        <section id="welcome-banner">
+        <div id="welcome-banner">
             <div id="ilaria-photo-container">
-                <img src="./images/Ilaria's picture.jpg" alt="Ilaria's photo">
+                <img id="ilaria-photo" src="./images/Ilaria's picture.jpg" alt="Ilaria's photo">
+                <!--decorative element-->
+                <img id="hi" src="./images/Hi!.png" alt="">
             </div>
             <div id="welcome-container">
-                <h1>Welcome to my portfolio</h1>
+                <h1 id="welcome">Welcome to my</h1>
+              <div id="portfolio-container">
+                <!--decorative element-->
+                <img id="heart" src="./images/heart.png" alt="">
+                <h2 id="portfolio">portfolio</h2>
+                <!--decorative element-->
+                <img id="heart" src="./images/heart.png" alt="">
+              </div>
             </div>
-        </section>
+        </div>
+
+        
 
         <section id="about">
             <div id="about-content">
-                <h2>About Me</h2>
+                <h2 class="subtitle">About Me</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     In necessitatibus fuga eum optio ut illo minus, architecto fugit autem, 
                     eveniet molestiae id harum et! Sunt distinctio consequuntur corporis vitae. 
@@ -52,9 +64,9 @@
         </section>
 
         <section id="projects">
-            <h2>My Projects</h2>
+            <h2 class="subtitle">My Projects</h2>
             <div class="project-container">
-                <img class="website-photo" src="./images/Il Giardino Olistico website.jpg" alt="Il Giardino Olistico Website photo">
+                <img class="website-photo" width="200px" src="./images/Il Giardino Olistico website.jpg" alt="Il Giardino Olistico Website photo">
                 <figcaption>"Yoga with Ilaria"</figcaption>
             </div>
             <div class="project-description">
@@ -67,7 +79,7 @@
             </div>
 
             <div class="project-container">
-                <img class="website-photo" src="./images/Yoga with Lalla website.jpg" alt="Yoga with Ilaria Website photo">
+                <img class="website-photo" width="200px" src="./images/Yoga with Lalla website.jpg" alt="Yoga with Ilaria Website photo">
                 <figcaption>"Il Giardino Olistico"</figcaption>
             </div>
             <div class="project-description">
@@ -81,7 +93,7 @@
         </section>
 
         <section id="contact">
-            <h2>Contacts</h2>
+            <h2 class="subtitle">Contacts</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                 Accusamus deserunt eos repellat tempore commodi non ea quam
                  quasi laborum inventore provident, 

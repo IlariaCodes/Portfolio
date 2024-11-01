@@ -1,0 +1,59 @@
+.underline-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.underline {
+    margin-top: -20px;
+    width: 20em;
+}
+
+#about-container {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    margin: 0 auto ;
+    padding: 0 0 50px 0;
+    height: 100%;
+    border-bottom: solid 2px var(--color-decorations);
+}
+    
+
+#about-content {
+    grid-column: 5/10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+#about-decoration {
+    grid-column: 10/11;
+}
+
+#flowers1 {
+    width: 10vw;
+    margin: auto 0;
+
+}
+#about-content p {
+    text-align: left;
+}
+
+
+#link-about {
+ text-align: left;
+ color: var(--color-decorations);
+ text-decoration: none;
+ margin-top: 20px;
+ font-weight: bold;
+}
+
+#link-about:hover {
+    text-decoration: underline;
+}
+
+
+    
+
+
+    

@@ -1,0 +1,32 @@
+#contact-content {
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    border-bottom: solid 2px var(--color-decorations);
+}
+
+#contact-info {
+    grid-column: 5/10;
+    padding: 0 0 50px 0;
+}
+
+#face {
+    grid-column: 10/11;
+    width: 6vw;
+    height: auto;
+    display: flex;
+    flex-direction: center;
+}
+
+#cont {
+    font-family: "Alkatra", system-ui;
+    font-size: 2em;
+}
+
+
+.size-big {
+    font-size: 2.5vw;
+}
+
+
+

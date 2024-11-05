@@ -40,13 +40,7 @@
 }
 
 
-#link-about {
- text-align: left;
- color: var(--color-decorations);
- text-decoration: none;
- margin-top: 20px;
- font-weight: bold;
-}
+
 
 #link-about:hover {
     text-decoration: underline;

@@ -48,5 +48,17 @@ p {
     transform: scale(1.1);
 }
 
+#link {
+    text-align: left;
+    color: var(--color-decorations);
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+   }
+
+   #link:hover {
+    text-decoration: underline;
+   }
     
   

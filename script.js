@@ -44,5 +44,26 @@ function toggleHamburgerMenu(event) {
 hamburgerMenuBtn.addEventListener('click', toggleHamburgerMenu);
 
 
+//Making the hamburger menu link working//
+let aboutBtnLink = document.getElementById('aboutBtn');
+ function getAbout(event) {
+    smallScreenMenu.style.display = 'none';
+ }
 
+ aboutBtnLink.addEventListener('click', getAbout);
+
+ let projectBtnLink = document.getElementById('projectBtn');
+ function getProject(event) {
+    smallScreenMenu.style.display = 'none';
+ }
+
+ projectBtnLink.addEventListener('click', getProject);
+
+
+ let contactBtnLink = document.getElementById('contactBtn');
+ function getContact(event) {
+    smallScreenMenu.style.display = 'none';
+ }
+
+ contactBtnLink.addEventListener('click', getContact);
 

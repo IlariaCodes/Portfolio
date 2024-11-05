@@ -74,6 +74,13 @@
         height: 400px;
         object-fit: cover;
     }
+
+    #welcome-container {
+        height: 100%;
+        margin: auto 0;
+    }
+
+  
 }
 
 

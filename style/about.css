@@ -27,16 +27,16 @@
 }
     
 #about-decoration {
-    grid-column: 10/11;
+    grid-column: 10/12;
 }
 
 #flowers1 {
-    width: 10vw;
-    margin: auto 0;
-
+    width: 100%;
+    height: auto;
 }
 #about-content p {
     text-align: left;
+    margin-top: 20px;
 }
 
 
@@ -65,6 +65,24 @@
 
 }
 
+@media only screen and (max-width: 768px) {
+    #about-content p {
+        font-size: 12px;
+
+
+    } 
+    
+    #about-content {
+        grid-column: 2/10;
+    }
+
+    #about-decoration {
+        grid-column: 10/12;
+        margin: auto 0;
+    }
+      
+
+}
     
 
 

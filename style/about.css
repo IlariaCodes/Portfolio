@@ -46,6 +46,24 @@
     text-decoration: underline;
 }
 
+#more-info {
+    display: none;
+}
+
+#display-less {
+    text-align: left;
+    color: var(--color-decorations);
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    display: none;
+}
+
+#display-less:hover {
+    text-decoration: underline;
+
+}
 
     
 

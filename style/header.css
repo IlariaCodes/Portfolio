@@ -6,7 +6,7 @@ header {
     align-items: center;
 }
 
-#portfolio-logo{
+#portfolio-logo {
     margin-left: 30px;
     font-family: "Alkatra", system-ui;
 }
@@ -44,13 +44,16 @@ nav a:hover {
 
 @media only screen and (max-width: 768px) {
 
-  
+    #portfolio-logo {
+        font-size: 3vw;
+    }
     #navigation-link {
         display: none;
     }
 
     #hamburger-menu {
         display: flex;
+
     }
        
     #hamburger-menu img {

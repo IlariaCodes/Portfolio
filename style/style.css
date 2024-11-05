@@ -55,10 +55,28 @@ p {
     margin-top: 20px;
     font-weight: bold;
     font-family: "Poppins", sans-serif;
-   }
+}
 
-   #link:hover {
+#link:hover {
     text-decoration: underline;
-   }
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#linkedin-link {
+    margin-right: 30px;
+}
+
+.footer-link {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+
     
   

@@ -12,9 +12,17 @@ html {
     color: var(--color-dark);
 }
 
-h1,h2 {
+h1,h2{
     font-family: "Alkatra", system-ui;
     text-align: center;
+}
+
+h3 {
+    font-family: "Alkatra", system-ui;
+    color: var(--color-dark);
+    text-align: left;
+    font-size: 2em;
+
 }
 
 .subtitle {

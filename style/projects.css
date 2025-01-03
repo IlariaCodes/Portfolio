@@ -6,7 +6,7 @@
 #projects-container {
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    gap: 50px;
+    
     margin: 50px auto;
     height: 500px;
     overflow: hidden;
@@ -14,12 +14,12 @@
 }
 
 .project1-container {
-    grid-column: 3 / span 4;
+    grid-column: 2 / span 4;
     position: relative;
 }
 
 .project2-container {
-    grid-column: 7 /span 4;
+    grid-column: 8 /span 4;
     position: relative;
 }
 

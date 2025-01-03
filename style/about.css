@@ -20,7 +20,7 @@
     
 
 #about-content {
-    grid-column: 5/10;
+    grid-column: 4/10;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,8 +34,9 @@
     width: 70%;
     height: auto;
 }
-#about-content p {
-    text-align: left;
+.about-content-text {
+
+    text-align: center;
 }
 
 
@@ -75,7 +76,7 @@
     #about-content {
         margin: 0 10px;
     }
-    #about-content p {
+    .about-content-text {
         font-size: 12px;
         text-align: center;
         width: 100%;
@@ -92,6 +93,7 @@
     #about-decoration {
       display: none;
     }
+
       
 
 }

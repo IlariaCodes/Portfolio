@@ -99,7 +99,9 @@
 
 @media only screen and (max-width: 480px) {
 
-
+  .project-description {
+    margin: 0 10px;
+  }
   .project-description h3 {
       font-size: 1.5em;
       color: var(--color-decorations);

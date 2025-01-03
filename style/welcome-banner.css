@@ -59,7 +59,20 @@
    
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
+
+    #welcome-banner {
+        height: auto;
+    }
+
+    #welcome {
+        font-size: 2.5em;
+    }
+
+    #portfolio {
+        font-size: 7vw;
+    }
+    
     #welcome-banner {
         display: flex;
         flex-direction: column;
@@ -76,9 +89,13 @@
     }
 
     #welcome-container {
-        height: 100%;
-        margin: auto 0;
+        margin-bottom: 20px;
     }
+
+    #heart {
+        width: 10vw;
+    }
+
 
   
 }

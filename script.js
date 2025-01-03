@@ -3,8 +3,14 @@ let moreInfoLink = document.getElementById('link');
 let moreInfoContent = document.getElementById('more-info');
 let displayLess = document.getElementById('display-less');
 
+let lastScrollPosition = 0;
+
 function displayMoreInfo(event) {
     event.preventDefault();
+
+    // Save the current scroll position
+    lastScrollPosition = window.scrollY;
+    
     moreInfoLink.style.display = 'none';
     moreInfoContent.style.display = 'block';
     displayLess.style.display = 'block';
@@ -16,11 +22,15 @@ moreInfoLink.addEventListener('click', displayMoreInfo);
 
 //display less info logic//
 
+
 function displayLessInfo(event) {
     event.preventDefault();
     moreInfoLink.style.display = 'block';
     moreInfoContent.style.display = 'none';
     displayLess.style.display = 'none';
+    
+    // Restore the scroll position
+    window.scrollTo({ top: lastScrollPosition, behavior: 'auto' });
 }
 
 displayLess.addEventListener('click', displayLessInfo)

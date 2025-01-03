@@ -31,7 +31,7 @@
 }
 
 #flowers1 {
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 #about-content p {
@@ -66,19 +66,31 @@
 }
 
 @media only screen and (max-width: 768px) {
-    #about-content p {
-        font-size: 12px;
-
-
-    } 
     
-    #about-content {
-        grid-column: 2/10;
+
+    .subtitle{
+        font-size: 2em;
     }
 
+    #about-content {
+        margin: 0 10px;
+    }
+    #about-content p {
+        font-size: 12px;
+        text-align: center;
+        width: 100%;
+    } 
+
+
+    
+    #about-container {
+        display: flex;
+        margin: 20px 0;
+    }
+        
+
     #about-decoration {
-        grid-column: 10/12;
-        margin: auto 0;
+      display: none;
     }
       
 

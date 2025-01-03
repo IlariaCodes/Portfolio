@@ -15,8 +15,8 @@
 }
 
 #face {
-    grid-column: 10/11;
-    width: 100%;
+    grid-column: 9/10;
+    width: 80%;
     height: auto;
     display: flex;
     flex-direction: center;

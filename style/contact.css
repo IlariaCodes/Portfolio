@@ -1,5 +1,5 @@
 #contact {
-    border-bottom: solid 2px var(--color-decorations);
+    margin-bottom: 50px;
 }
 
 #contact-content {
@@ -24,7 +24,7 @@
 
 #cont {
     font-family: "Alkatra", system-ui;
-    font-size: 2em;
+    font-size: 2vw;
 }
 
 
@@ -38,12 +38,16 @@
         grid-column: 2/10;
     }
 
-    #face {
-        grid-column: 10/12;
-    }
-
     .size-big {
         font-size: 4vw;
+    }
+
+    #cont {
+        font-size: 6vw;
+    }
+
+    #face {
+        width: 10%;
     }
 
 

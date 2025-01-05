@@ -89,4 +89,21 @@ footer {
 
 
     
-  
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.divider::before,
+.divider::after {
+      content: '';
+      flex: 1;
+      border-bottom: 2px solid var(--color-decorations);
+      margin: 0 10px; /* Spazio intorno all'immagine */
+    }
+
+    .divider img {
+      height: 30px; /* Altezza dell'immagine */
+      width: auto; /* Mantiene le proporzioni */
+    }

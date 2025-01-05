@@ -21,6 +21,10 @@
     background-color: var(--color-decorations);
 }
 
+#end-timeline {
+    background-color: var(--color-background);
+}
+
 .timeline-point {
     position: absolute;
     top: 0;

@@ -59,6 +59,17 @@
    
 }
 
+.introduction {
+    margin-top: 50px;
+}
+
+.introduction-text {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+
 @media only screen and (max-width: 768px) {
 
     #welcome-banner {
@@ -89,11 +100,15 @@
     }
 
     #welcome-container {
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
 
     #heart {
         width: 10vw;
+    }
+
+    .introduction-text {
+        font-size: 14px;
     }
 
 

@@ -4,10 +4,10 @@
     grid-template-columns: repeat(12,1fr);
     height: 500px;
     overflow: hidden;
-    border-bottom: solid 2px var(--color-decorations);
     margin-top: 60px;
     padding: 0 30px;
 }
+
 
 #ilaria-photo-container{
     grid-column: 1 / span 4;

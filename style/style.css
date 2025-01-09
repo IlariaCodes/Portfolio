@@ -5,9 +5,9 @@
 }
 
 html {
-    --color-background: #f8f0ea;
-    --color-decorations: #d69461;
-    --color-dark: #231201;
+    --color-background: #ffde85;
+    --color-decorations: #e89925;
+    --color-dark: #1d1b3f;
     background-color: var(--color-background);
     color: var(--color-dark);
 }
@@ -43,7 +43,7 @@ p {
 }
 
 .btn {
-    background-color: var(--color-decorations);
+    background-color: var(--color-dark);
     color: white;
     padding: 2% 4%;
     border-radius: 18px;
@@ -53,7 +53,7 @@ p {
 }
 
 .btn:hover {
-    color: var(--color-dark);
+    color: white;
     transform: scale(1.1);
 }
 

@@ -47,7 +47,7 @@
 }
 
 #display-less {
-    text-align: left;
+    text-align: center;
     color: var(--color-decorations);
     text-decoration: none;
     margin-top: 20px;

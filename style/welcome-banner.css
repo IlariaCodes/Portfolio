@@ -8,7 +8,6 @@
     padding: 0 30px;
 }
 
-
 #ilaria-photo-container{
     grid-column: 1 / span 4;
     display: flex;
@@ -49,21 +48,13 @@
     padding: 0 5%;
 
 }
-    
-#hi {
-    width: 25vw;
-    position: absolute;
-    left: 25vw;
-    top: -2vw;
-    transform: rotate(20deg);
-}
 
 #heart {
     width: 4vw;
     margin: 0 5%;
    
 }
-
+    
 .introduction {
     margin-top: 50px;
 }
@@ -73,6 +64,7 @@
     font-size: 20px;
     margin: 0 20px;
 }
+
 
 
 @media only screen and (max-width: 768px) {
@@ -116,10 +108,9 @@
     .introduction-text {
         font-size: 14px;
     }
-
-
-  
 }
+
+
 
 @media only screen and (max-width: 480px) {
 
@@ -133,6 +124,9 @@
         padding: 10px;
     }
 }
+
+  
+
 
 
 

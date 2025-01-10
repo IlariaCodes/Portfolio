@@ -39,49 +39,43 @@ nav a:hover {
     display: none;
 }
 
- #side-drawer {
+#side-drawer {
     display: none;
- }
+}
 
- #nav-links-small-screen {
+#nav-links-small-screen {
     display: none;
- }
+}
+
+
 
 @media only screen and (max-width: 768px) {
-
-
     #portfolio-logo {
         font-size: 3vw;
         margin-left: 10px;
     }
-
-
     #navigation-link {
         display: none;
     }
 
     #hamburger-menu {
         display: flex;
-
     }
-       
+
     #hamburger-menu img {
        width: 2.5em;
        margin-right: 10px;
        z-index: 2001;
-       
-
     }
-   
+       
     #nav-links-small-screen {
        
         list-style: none;
         display: flex;
         flex-direction: column;
         align-items: center;
-      
     }
-
+      
     #nav-links-small-screen li {
          font-size: 2em;
     }
@@ -98,8 +92,17 @@ nav a:hover {
         background-color: rgb(248, 240, 234, 0.9);
         z-index: 2000;
     }
-
 }
+
+
+
+
+
+
+       
+   
+
+
     
     
 

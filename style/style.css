@@ -22,7 +22,6 @@ h3 {
     color: var(--color-dark);
     text-align: left;
     font-size: 2em;
-
 }
 
 .subtitle {
@@ -34,7 +33,6 @@ h3 {
 h1 {
     font-size: 2em;
 }
-
 
 p {
   font-family: "Poppins", sans-serif;
@@ -91,13 +89,11 @@ footer {
     margin-right: 15px;
 }
 
-
-    
 .divider {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
 .divider::before,
 .divider::after {
@@ -105,7 +101,7 @@ footer {
       flex: 1;
       border-bottom: 2px solid var(--color-decorations);
       margin: 0 10px;
-    }
+}
 
 .divider img {
       height: 30px;
@@ -116,5 +112,9 @@ footer {
     border-bottom: 2px solid var(--color-decorations);
     margin: 0 10px;
 }
+
+
+    
+
 
 

@@ -1,11 +1,9 @@
 #projects-container {
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    
     margin: 50px auto;
     height: 500px;
     overflow: hidden;
-    
 }
 
 .project1-container {
@@ -24,8 +22,7 @@
   height: auto;
   z-index: -10;
 }
-  
-
+    
 .project2-container {
     grid-column: 8 /span 4;
     position: relative;
@@ -38,7 +35,7 @@
     border-radius: 18px;
     box-shadow: 0 4px 8px rgba(35, 18, 1, 0.3); 
 }
-
+    
 .project-overlay {
     position: absolute;
     top: 0;
@@ -52,10 +49,8 @@
 
 .project-overlay:hover {
     opacity: 1;
-
 }
-    
-
+  
 .project-description {
     height: 100%;
     display: flex;
@@ -72,8 +67,9 @@
     font-family: "Alkatra", system-ui;
     font-size: 1.5em;
 }
-    
-  
+
+
+
 @media only screen and (max-width: 768px) {
   
     #projects-container {
@@ -105,16 +101,10 @@
     .project-text {
         font-size: 12px;
     }
-
- 
-        
-    
-    
-    
-    
 }
+    
 
-
+    
 @media only screen and (max-width: 480px) {
 
   .project-description {
@@ -138,7 +128,7 @@
     background: transparent;
     width: 100%;
   }
-
+  
   .project1-container {
     display: flex;
     flex-direction: column;
@@ -152,11 +142,21 @@
     justify-content: center;
     align-items: center;
   }
+}
+
+ 
+        
+    
+    
+    
+    
+
+
+
 
 
 
 
  
-}
 
 

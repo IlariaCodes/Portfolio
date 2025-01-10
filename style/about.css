@@ -25,17 +25,10 @@
     justify-content: center;
 }
     
-
-
-
 .about-content-text {
-
     text-align: center;
     margin: 20px auto;
 }
-
-
-
 
 #link-about:hover {
     text-decoration: underline;
@@ -64,9 +57,10 @@
 #link {
     text-align: center;
 }
-@media only screen and (max-width: 768px) {
-    
 
+
+
+@media only screen and (max-width: 768px) {
     .subtitle{
         font-size: 2em;
     }
@@ -79,26 +73,32 @@
         text-align: center;
         width: 100%;
     } 
-
-
     
     #about-container {
         display: flex;
         margin: 20px 0;
     }
         
-
     #about-decoration {
       display: none;
     }
 
     .underline {
-       
         width: 15em;
     }
+}
+       
     
 
-}
+
+
+
+
+
+
+    
+
+
     
 
 

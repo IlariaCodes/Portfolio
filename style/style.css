@@ -1,120 +1,115 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    --color-background: #ffde85;
-    --color-decorations: #e89925;
-    --color-dark: #1d1b3f;
-    background-color: var(--color-background);
-    color: var(--color-dark);
+  --color-background: #ffde85;
+  --color-decorations: #e89925;
+  --color-dark: #1d1b3f;
+  background-color: var(--color-background);
+  color: var(--color-dark);
 }
 
-h1,h2{
-    font-family: "Alkatra", system-ui;
-    text-align: center;
+h1,
+h2 {
+  font-family: 'Alkatra', system-ui;
+  text-align: center;
 }
 
 h3 {
-    font-family: "Alkatra", system-ui;
-    color: var(--color-dark);
-    text-align: left;
-    font-size: 2em;
+  font-family: 'Alkatra', system-ui;
+  color: var(--color-dark);
+  text-align: left;
+  font-size: 2em;
 }
 
 .subtitle {
-    font-size: 3em;
-    margin-top: 50px;
-    margin-bottom: 10px;
+  font-size: 3em;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 h1 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .btn {
-    background-color: var(--color-dark);
-    color: white;
-    padding: 2% 4%;
-    border-radius: 18px;
-    margin-top: 20px;
-    font-family: "Alkatra", system-ui;
-    border: none;
+  background-color: var(--color-dark);
+  color: white;
+  padding: 2% 4%;
+  border-radius: 18px;
+  margin-top: 20px;
+  font-family: 'Alkatra', system-ui;
+  border: none;
 }
 
 .btn:hover {
-    color: white;
-    transform: scale(1.1);
+  color: white;
+  transform: scale(1.1);
 }
 
 #link {
-    text-align: left;
-    color: var(--color-decorations);
-    text-decoration: none;
-    margin-top: 20px;
-    font-weight: bold;
-    font-family: "Poppins", sans-serif;
+  text-align: left;
+  color: var(--color-decorations);
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
 }
 
 #link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
 }
 
 #links {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 .footer-link {
-    text-align: center;
+  text-align: center;
 }
 
 #linkedin-icon {
-    height: 100%;
-    width: auto;
-    margin-right: 15px;
+  height: 100%;
+  width: auto;
+  margin-right: 15px;
 }
 
 .divider {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .divider::before,
 .divider::after {
-      content: "";
-      flex: 1;
-      border-bottom: 2px solid var(--color-decorations);
-      margin: 0 10px;
+  content: '';
+  flex: 1;
+  border-bottom: 2px solid var(--color-decorations);
+  margin: 0 10px;
 }
 
 .divider img {
-      height: 30px;
-      width: auto; 
+  height: 30px;
+  width: auto;
 }
 
-.divider-noheart{
-    border-bottom: 2px solid var(--color-decorations);
-    margin: 0 10px;
+.divider-noheart {
+  border-bottom: 2px solid var(--color-decorations);
+  margin: 0 10px;
 }
-
-
-    
-
-
-

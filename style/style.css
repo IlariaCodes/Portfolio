@@ -42,7 +42,7 @@ p {
 }
 
 .btn {
-  background-color: var(--color-dark);
+  background-color: var(--color-decorations);
   color: white;
   padding: 2% 4%;
   border-radius: 18px;

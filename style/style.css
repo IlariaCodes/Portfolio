@@ -5,7 +5,7 @@
 }
 
 html {
-  --color-background: #ffde85;
+  --color-background: #f5f5dc;
   --color-decorations: #e89925;
   --color-dark: #1d1b3f;
   background-color: var(--color-background);

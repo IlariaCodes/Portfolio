@@ -1,109 +1,95 @@
 header {
-    top: 0;
-    left: 0;
-    height: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    z-index: 20000;
-    background-color: var(--color-background);
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 20000;
+  background-color: var(--color-background);
 }
 
 #portfolio-logo {
-    margin-left: 30px;
-    font-family: "Alkatra", system-ui;
+  margin-left: 30px;
+  font-family: 'Alkatra', system-ui;
 }
 
 #portfolio-logo a {
-    text-decoration: none;
-    color: var(--color-decorations);
-    font-size: 2em;
+  text-decoration: none;
+  color: var(--color-decorations);
+  font-size: 2em;
 }
-    
+
 nav a {
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    color: var(--color-decorations);
-    margin-right: 30px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: var(--color-decorations);
+  margin-right: 30px;
 }
 
 nav a:hover {
-    text-decoration: underline;
-    color: var(--color-dark);
+  text-decoration: underline;
+  color: var(--color-dark);
 }
 
 #hamburger-menu {
-    display: none;
+  display: none;
 }
 
 #side-drawer {
-    display: none;
+  display: none;
 }
 
 #nav-links-small-screen {
-    display: none;
+  display: none;
 }
-
-
 
 @media only screen and (max-width: 768px) {
-    #portfolio-logo {
-        font-size: 3vw;
-        margin-left: 10px;
-    }
-    #navigation-link {
-        display: none;
-    }
+  header {
+    height: 60px;
+  }
+  #portfolio-logo {
+    font-size: 3vw;
+    margin-left: 10px;
+  }
+  #navigation-link {
+    display: none;
+  }
 
-    #hamburger-menu {
-        display: flex;
-    }
+  #hamburger-menu {
+    display: flex;
+  }
 
-    #hamburger-menu img {
-       width: 2.5em;
-       margin-right: 10px;
-       z-index: 2001;
-    }
-       
-    #nav-links-small-screen {
-       
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-      
-    #nav-links-small-screen li {
-         font-size: 2em;
-    }
-      
-    #side-drawer {
-        width: 100%;
-        height: 100%;
-        display: none;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        left: 0;
-        background-color: rgb(248, 240, 234, 0.9);
-        z-index: 2000;
-    }
+  #hamburger-menu img {
+    width: 2.5em;
+    margin-right: 10px;
+    z-index: 2001;
+  }
+
+  #nav-links-small-screen {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #nav-links-small-screen li {
+    font-size: 2em;
+  }
+
+  #side-drawer {
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(248, 240, 234, 0.9);
+    z-index: 2000;
+  }
 }
-
-
-
-
-
-
-       
-   
-
-
-    
-    
-
-

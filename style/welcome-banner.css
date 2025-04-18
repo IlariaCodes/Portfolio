@@ -1,132 +1,118 @@
 #welcome-banner {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(12,1fr);
-    height: 500px;
-    overflow: hidden;
-    margin-top: 60px;
-    padding: 0 30px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(12, 1fr);
+  height: 500px;
+  overflow: hidden;
+  margin-top: 100px;
+  padding: 0 30px;
 }
 
-#ilaria-photo-container{
-    grid-column: 1 / span 4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#ilaria-photo-container {
+  grid-column: 1 / span 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #ilaria-photo {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
 
 #welcome-container {
-    grid-column: 5 / span 8;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  grid-column: 5 / span 8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #welcome {
-    font-size: 7vw;
+  font-size: 7vw;
 }
 #portfolio-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #portfolio {
-    font-family: "Poppins", sans-serif;
-    background-color: var(--color-decorations);
-    border-radius: 18px;
-    color: var(--color-background);
-    font-size: 5vw;
-    padding: 0 5%;
-
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-decorations);
+  border-radius: 18px;
+  color: var(--color-background);
+  font-size: 5vw;
+  padding: 0 5%;
 }
 
 #heart {
-    width: 4vw;
-    margin: 0 5%;
-   
+  width: 4vw;
+  margin: 0 5%;
 }
-    
+
 .introduction {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .introduction-text {
-    text-align: center;
-    font-size: 20px;
-    margin: 0 20px;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 20px;
 }
-
-
 
 @media only screen and (max-width: 768px) {
+  #welcome-banner {
+    height: auto;
+  }
 
-    #welcome-banner {
-        height: auto;
-    }
+  #welcome {
+    font-size: 5em;
+  }
 
-    #welcome {
-        font-size: 5em;
-    }
+  #portfolio {
+    font-size: 7vw;
+  }
 
-    #portfolio {
-        font-size: 7vw;
-    }
-    
-    #welcome-banner {
-        display: flex;
-        flex-direction: column;
-    }
+  #welcome-banner {
+    display: flex;
+    flex-direction: column;
+  }
 
-    #hi {
-        left: 50vw;
-        top: -15vw;
-        width: 70vw;
-    }
-    #ilaria-photo {
-        height: auto;
-        width: 55%;
-        object-fit: cover;
-    }
+  #hi {
+    left: 50vw;
+    top: -15vw;
+    width: 70vw;
+  }
+  #ilaria-photo {
+    height: auto;
+    width: 55%;
+    object-fit: cover;
+  }
 
-    #welcome-container {
-        margin-bottom: 50px;
-    }
+  #welcome-container {
+    margin-bottom: 50px;
+  }
 
-    #heart {
-        width: 10vw;
-    }
+  #heart {
+    width: 10vw;
+  }
 
-    .introduction-text {
-        font-size: 14px;
-    }
+  .introduction-text {
+    font-size: 14px;
+  }
 }
-
-
 
 @media only screen and (max-width: 480px) {
-
-    #ilaria-photo {
-        width: 90%;
-    }
-    #welcome {
-        font-size: 2.3em;
-    }
-    #welcome-banner {
-        padding: 10px;
-    }
+  #ilaria-photo {
+    width: 90%;
+  }
+  #welcome {
+    font-size: 2.3em;
+  }
+  #welcome-banner {
+    padding: 10px;
+  }
 }
-
-  
-
-
-
-

@@ -1,113 +1,99 @@
 .timeline {
-    margin: 50px auto;
-    display: grid;
-    grid-template-columns: 1fr 3px 1fr;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: var(--color-dark);
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-dark);
 }
 
 .timeline-component {
-    margin: 0 20px 20px 20px;
+  margin: 0 20px 20px 20px;
 }
 
 .timeline-date-right {
-    text-align: right;
+  text-align: right;
 }
 
 .timeline-middle {
-    position: relative;
-    background-color: var(--color-decorations);
+  position: relative;
+  background-color: var(--color-decorations);
 }
 
 #end-timeline {
-    background-color: var(--color-background);
+  background-color: var(--color-background);
 }
 
 .timeline-point {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 15px;
-    height: 15px;
-    background-color: var(--color-decorations);
-    border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background-color: var(--color-decorations);
+  border-radius: 50%;
 }
 
 .timeline-component-bg {
-    padding: 1.5em;
-    background-color: rgb(214, 148, 97, 0.2);
-    border-radius: 10px;
+  padding: 1.5em;
+  background-color: rgb(214, 148, 97, 0.2);
+  border-radius: 10px;
 }
 
 .timeline-text {
-    font-size: 16px;
-    color: var(--color-dark);
+  font-size: 16px;
+  color: var(--color-dark);
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 h5 {
-    color: var(--color-decorations);
+  color: var(--color-decorations);
+  font-size: 18px;
 }
 
 .certificate-pdf {
-    color: var(--color-decorations);
-    font-size: 12px;
-    text-decoration: none;
+  color: var(--color-decorations);
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .certificate-pdf:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
-
 
 @media only screen and (max-width: 768px) {
+  h3 {
+    font-size: 1em;
+    text-align: center;
+  }
 
-    h3 {
-        font-size: 1em;
-        text-align: center;
+  h5 {
+    font-size: 10px;
+  }
 
-    }
+  .timeline-component {
+    margin: 0 10px 10px 10px;
+  }
 
-    h5 {
-        font-size: 10px;
-    }
+  .timeline_date {
+    font-size: 10px;
+  }
 
-    .timeline-component {
-        margin: 0 10px 10px 10px;
-    }
+  .timeline-component-bg {
+    padding: 0.5em;
+  }
 
-    .timeline_date {
-        font-size: 10px;
-    }
+  .timeline-text {
+    font-size: 9px;
+  }
 
-    
-    .timeline-component-bg {
-        padding: 0.5em;
-    }
-
-    .timeline-text {
-        font-size: 9px;
-    }
-
-    .certificate-pdf {
-        font-size: 10px;
-    }
-
+  .certificate-pdf {
+    font-size: 9px;
+  }
 }
-
-
-    
-
-
-
-
-
-
-    

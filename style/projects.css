@@ -1,3 +1,11 @@
+#projects::before {
+  content: '';
+  display: block;
+  height: 100px;
+  margin-top: -100px;
+  visibility: hidden;
+}
+
 #projects-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -62,7 +70,7 @@
   color: var(--color-background);
 }
 
-.website-name {
+.yellow {
   color: var(--color-decorations);
   font-family: 'Alkatra', system-ui;
   font-size: 1.5em;
